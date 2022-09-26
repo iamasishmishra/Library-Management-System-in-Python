@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library management system</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #background {
+
+            min-height: 1050px;
+            width: 100%;
+
+        }
+
+         body{
+            background-color: #babccf;
+         }
+
+        #top {
+            height: 35px;
+            width: 100%;
+            background: #150fd3;
+            line-height: 35px;
+            padding: 0px 20px 9px 100px;
+            box-sizing: border-box;
+            word-spacing: 10px;
+
+        }
+
+
+
+        #logo {
+            height: 65px;
+            width: 40%;
+            background: white;
+            text-align: center;
+            line-height: 65px;
+            font-size: 40px;
+            float: left;
+        }
+
+        #menu1 {
+            height: 65px;
+            width: 60%;
+            background: white;
+            float: left;
+
+        }
+
+        #menu1 UL {
+            list-style: none;
+            padding-left: 200px;
+            box-sizing: border-box;
+
+        }
+
+        #menu1 LI {
+            height: 45px;
+            width: 130px;
+
+            text-align: center;
+            display: inline-block;
+            line-height: 45px;
+            transform: translateY(-5px);
+            color: black;
+            font-size: 20px;
+
+        }
+
+        #menu1 LI:hover {
+            background: #0e26d9;
+            color: white;
+            transition: all ease 1s;
+            border-radius: 3px;
+        }
+
+
+        .card {
+            width: 100%;
+            margin: 37px auto;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .cards {
+            display: auto;
+            overflow: hideen;
+        }
+
+        .card-item {
+            display: inline-flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0 15px;
+        }
+
+        .card h2 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #down {
+            height: 300px;
+            width: 100%;
+            margin-top: 10px;
+            background: #1811d6;
+            text-align: center;
+            padding-top: 10px;
+            color: white;
+        }
+
+        .footer {
+            height: 20px;
+            width: 100%;
+            background: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="background">
+        <div id="top">
+            <a href="#" class="fa fa-envelope" style="text-decoration:none;  color: white;">
+                asishkumarmish688@gmail.com
+            </a>
+            <a href="#" class="fa fa-phone" style="text-decoration:none; color: white;">
+                +91-8328837
+            </a>
+            <a href="#" class="fa fa-facebook"
+                style="text-decoration:none; padding:7px; float:right; color: white;"></a>
+            <a href="#" class="fa fa-instagram"
+                style="text-decoration:none; padding:7px; float:right; color: white;"></a>
+            <a href="#" class="fa fa-twitter"
+                style="text-decoration:none;  padding: 7px ; float:right; color: white;"></a>
+        </div>
+        <div id="menu">
+            <div id="logo">LIBRARY<b style="color:#2c7ad6 ;">System</b>
+            </div>
+            <div id="menu1">
+                <ul>
+                    <a href="index.html">
+                        <li class="fa fa-home">Home</li>
+                    </a>
+                    <a href="Book.html">
+                        <li class="fa fa-image">Books</li>
+                    </a>
+
+                    <a href="register.html">
+                        <li class="fa fa-registered">Register</li>
+                    </a>
+                    <a href="login.html">
+                        <li class="fa fa-user">Login</li>
+                    </a>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2 class="my-2">Top Books</h2>
+            <div class="cards">
+                <div class="card-item">
+                    <img src="img/1.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Emma</p>
+
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/2.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Sybil</p>
+
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/3.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Jane Eyre</p>
+
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/4.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Chitra</p>
+
+                    </div>
+                </div>
+
+
+                <div class="card-item">
+                    <img src="img/5.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Koolie</p>
+
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/6.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Devdas</p>
+
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/7.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Eternal India</p>
+
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/8.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Meghdoot</p>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/9.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Panchatantra</p>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/10.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Savitri</p>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/11.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">We Indians</p>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/h.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Jane Eyre</p>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/g.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Things Fall Apart</p>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/f.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Mrs. Dalloway</p>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/e.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Beloved</p>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/d.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Harry Potter</p>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/c.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Don Quixote</p>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/b.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">Invisible Man</p>
+                    </div>
+                </div>
+
+                <div class="card-item">
+                    <img src="img/a.jpg" alt="" width="110px" height="130px">
+                    <div class="lines">
+                        <p class="text-center my-1">A Passage to India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="down">
+            <h3>Social</h3>
+            <a href="#" class="fa fa-facebook" style="text-decoration: none; padding: 10px 12px;color: white; "></a>
+            <a href="#" class="fa fa-instagram" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
+            <a href="#" class="fa fa-twitter" style="text-decoration: none; padding: 10px 12px;color: white;"></a>
+            <h2>Contant Us</h2>
+            <a href="#" class="fa fa-home" style="text-decoration: none; padding: 10px 12px;color: white; ">
+                At :Angul, post : Anku,
+                Police Station : Angul,
+                Dist: Angul, State: Odisha
+            </a> <br>
+            <a href="#" class="fa fa-phone" style="text-decoration: none; padding: 10px 12px;color: white;">
+                +91-8328837
+            </a> <br>
+            <a href="#" class="fa fa-envelope" style="text-decoration: none; padding: 10px 12px; color:white;">
+                asishkumarmish688@gmail.com
+            </a>
+        </div>
+        <div class="footer">www.@copyrigth.All rights are Reserved </div>
+    </div>
+</body>
+
+</html>
